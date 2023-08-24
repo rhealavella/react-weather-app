@@ -1,7 +1,16 @@
 import React from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+  const key = "e9ebt40ac8468b03ff07a7b93c22oc3b";
+  let query = "vancouver";
+  let url = `https://api.shecodes.io/weather/v1/current?query=${query}&key=${key}&units=metric`;
+  axios.get(url).then(handleResponse);
+
   return (
     <div className="Weather">
       <form>
