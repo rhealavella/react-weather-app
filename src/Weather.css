@@ -4,6 +4,34 @@
   padding: 30px;
   margin-top: 30px;
   border-radius: 10px;
+
+  color: #454343;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Weather .btn {
+  background-color: navy;
+  border-color: navy;
+}
+.Weather .btn:hover {
+  color: navy;
+  background-color: white;
+}
+
+.Weather ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.Weather h1 {
+}
+.Weather h2 {
+  font-size: 30px;
+  margin-top: 10px;
 }
 .Weather footer {
   font-family: "Space Mono", monospace;

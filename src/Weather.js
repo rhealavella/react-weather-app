@@ -11,6 +11,7 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
@@ -21,18 +22,18 @@ export default function Weather() {
       <h1>Vancouver</h1>
       <ul>
         <li>Thu Aug 23 9:00 PM</li>
-        <li>Clear</li>
       </ul>
+      <h2>6˚C</h2>
       <div className="row">
         <div className="col-6">
           <img
             src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"
             alt="clear"
           />
-          6˚C
         </div>
         <div className="col-6">
           <ul>
+            <li>Clear</li>
             <li>Precipitation: 60%</li>
             <li>Humidity: 30%</li>
             <li>Wind: 5km/hr</li>

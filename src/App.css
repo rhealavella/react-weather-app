@@ -1,7 +1,11 @@
 .App {
   font-family: "Space Mono", monospace;
+  max-width: 600px;
+  margin: 30px auto;
 }
 .App footer {
   font-size: 10px;
   text-align: center;
+  margin-top: 20px;
+  color: #2f2b2b;
 }
