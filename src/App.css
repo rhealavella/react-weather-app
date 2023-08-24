@@ -1,1 +1,7 @@
-
+.App {
+  font-family: "Space Mono", monospace;
+}
+.App footer {
+  font-size: 10px;
+  text-align: center;
+}
