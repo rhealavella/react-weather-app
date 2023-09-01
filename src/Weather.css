@@ -33,6 +33,9 @@
   font-size: 30px;
   margin-top: 10px;
 }
+.Weather a {
+  text-decoration: none;
+}
 .Weather footer {
   font-family: "Space Mono", monospace;
 }
