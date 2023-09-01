@@ -12,10 +12,7 @@ export default function WeatherInfo(props) {
       <h2>{Math.round(props.data.temperature)}˚C</h2>
       <div className="row">
         <div className="col-6">
-          <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-            alt="clear"
-          />
+          <img src={props.data.icon} alt={props.data.description} />
         </div>
         <div className="col-6">
           <ul className="text-capitalize">
