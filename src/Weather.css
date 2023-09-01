@@ -39,3 +39,11 @@
 .Weather footer {
   font-family: "Space Mono", monospace;
 }
+.temperature {
+  font-size: 45px;
+}
+.units {
+  position: relative;
+  line-height: 1;
+  top: -20px;
+}
