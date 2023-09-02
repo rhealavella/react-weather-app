@@ -1,0 +1,13 @@
+.WeatherForecast {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: small;
+}
+
+.WeatherForecast-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+.WeatherForecast-icon {
+  max-width: 65px;
+}
