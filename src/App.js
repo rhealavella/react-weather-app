@@ -8,7 +8,14 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Vancouver" />
         <footer>
-          This project was desgined and created by Rhea La Vella and is{" "}
+          This project was desgined and created by{" "}
+          <a
+            href="https://lighthearted-jalebi-377ddd.netlify.app/"
+            target="_blank"
+          >
+            Rhea La Vella
+          </a>{" "}
+          and is{" "}
           <a href="https://github.com/rhealavella/react-weather-app">
             open-sourced
           </a>
