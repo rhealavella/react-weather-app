@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://lighthearted-jalebi-377ddd.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Rhea La Vella
           </a>{" "}
